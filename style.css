@@ -1,0 +1,51 @@
+body{
+    height: 800px;
+}
+
+
+.container{
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.background{
+    background-image: url(assets/eric-nopanen-3skLpaOBlMw-unsplash.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    margin-top: 0;
+    background: -webkit-linear-gradient(rgb(238, 222, 6), rgb(253, 4, 4));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h4{
+    color: rgb(85, 85, 85);
+}
+
+input{
+    width: 100%;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+p{
+    margin: 0;
+}
+
+
+#resultado{
+    margin: 10px;
+    
+}
